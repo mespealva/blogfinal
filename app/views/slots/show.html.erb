@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Available:</strong>
+  <%= @slot.available %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @slot.user %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @slot.day %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @slot.start %>
+</p>
+
+<p>
+  <strong>End:</strong>
+  <%= @slot.end %>
+</p>
+
+<%= link_to 'Edit', edit_slot_path(@slot) %> |
+<%= link_to 'Back', slots_path %>

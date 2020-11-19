@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slot: one
+  user: one
+  client: MyString
+
+two:
+  slot: two
+  user: two
+  client: MyString

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  available: false
+  user: one
+  day: MyString
+  start: MyString
+  end: MyString
+
+two:
+  available: false
+  user: two
+  day: MyString
+  start: MyString
+  end: MyString
